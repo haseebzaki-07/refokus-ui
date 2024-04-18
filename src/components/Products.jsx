@@ -57,7 +57,7 @@ const Products = () => {
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
             className=" window  h-full w-full bg-sky-100  "
           >
-           <video autoPlay muted loop src="../../assets/video1.mp4"></video>
+           <video autoPlay muted loop src="media/video1.mp4"></video>
           </motion.div>
           <motion.div
         
@@ -65,7 +65,7 @@ const Products = () => {
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
             className=" window  h-full w-full bg-sky-200  "
           ><img className="object-cover w-full h-full "
-          src="assets/img1.jpg"
+          src="media/img1.jpg"
           alt=""
         /></motion.div>
           <motion.div
@@ -74,7 +74,7 @@ const Products = () => {
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
             className=" window  h-full w-full bg-sky-300  "
           > <img className="object-cover w-full h-full "
-          src="assets/img2.webp"
+          src="media/img2.webp"
           alt=""
         /></motion.div>
           <motion.div
@@ -83,7 +83,7 @@ const Products = () => {
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
             className=" window  h-full w-full bg-sky-400  "
           ><img className="object-cover w-full h-full "
-          src="assets/img3.png"
+          src="media/img3.png"
           alt=""
         /></motion.div>
         </motion.div>
