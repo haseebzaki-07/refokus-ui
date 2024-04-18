@@ -57,7 +57,7 @@ const Products = () => {
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
             className=" window  h-full w-full bg-sky-100  "
           >
-           <video autoPlay muted loop src="assets/video1.mp4"></video>
+           <video autoPlay muted loop src="../../assets/video1.mp4"></video>
           </motion.div>
           <motion.div
         
