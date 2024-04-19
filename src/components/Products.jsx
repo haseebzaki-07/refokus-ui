@@ -57,7 +57,7 @@ const Products = () => {
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
             className=" window  h-full w-full bg-sky-100  "
           >
-           <video autoPlay muted loop src="/media/video1.mp4"></video>
+           <video className="object-cover w-full h-full " autoPlay muted loop src="https://cdn.refokus.com/refokus-promo/webflow-education-promo.mp4"></video>
           </motion.div>
           <motion.div
         
@@ -65,7 +65,7 @@ const Products = () => {
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
             className=" window  h-full w-full bg-sky-200  "
           ><img className="object-cover w-full h-full "
-          src="/media/img1.jpg"
+          src="https://assets-global.website-files.com/6334198f239547f2fccd84c1/64cc29f414c45ee4f46aa3ba_01-p-500.jpg"
           alt=""
         /></motion.div>
           <motion.div
@@ -73,8 +73,8 @@ const Products = () => {
             animate={{ y: -pos + `rem` }}
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
             className=" window  h-full w-full bg-sky-300  "
-          > <img className="object-cover w-full h-full "
-          src="/media/img2.webp"
+          > <img className="object-cover  w-full h-full "
+          src="https://assets-global.website-files.com/6334198f239547f2fccd84c1/65b2cab86e8df24e528c4441_Frame%201.png"
           alt=""
         /></motion.div>
           <motion.div
@@ -83,7 +83,7 @@ const Products = () => {
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
             className=" window  h-full w-full bg-sky-400  "
           ><img className="object-cover w-full h-full "
-          src="/media/img3.png"
+          src="https://assets-global.website-files.com/6334198f239547f2fccd84c1/64cd6ecc885579ba1b4ffc97_10.jpg"
           alt=""
         /></motion.div>
         </motion.div>

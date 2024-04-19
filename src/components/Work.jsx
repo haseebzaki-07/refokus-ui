@@ -46,19 +46,19 @@ function Work() {
       imageShow([])
     }
     else if (scrollval >= 2 && scrollval <7) {
-      console.log("pehla dikha kya bandhu" ,scrollval)
+      
       imageShow([0])
     }
     else if (scrollval >= 7 && scrollval <10 ) {
-      console.log("pehla dikha kya bandhu aur dusra?", scrollval)
+     
     imageShow([0,1])
     }
     else if (scrollval >= 10 && scrollval <13 ) {
-      console.log("pehla dikha kya bandhu aur dusra?", scrollval)
+     
     imageShow([0,1,2])
     }
     else if (scrollval >= 13 && scrollval <16 ) {
-      console.log("pehla dikha kya bandhu aur dusra?", scrollval)
+
     imageShow([0,1,2,3])
     }
 
